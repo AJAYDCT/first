@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'tempapp/temp.html' %}
+    {% block body_block %}
+        <h1> This is index html file </h1>
+        <h1> This is an example of templates inheritance </h1>
+        <h1>{{ text|cut:'bro' }}</h1>
+        <h1>{{ number|add:'5' }}</h1>
+    {% endblock %}
